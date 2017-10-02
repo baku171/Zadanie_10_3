@@ -1,0 +1,36 @@
+body {
+    background-color: grey;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#carousel {
+    border: 5px solid red;
+    height: 300px;
+    width: 400px;
+    overflow: hidden;
+}
+
+ul {
+    width: 2000px;
+	list-style-type: none;
+	margin: 0 ;
+	padding: 0;
+}
+
+ul:after { 
+    content: " "; 
+    display: block;
+    clear: both;
+}
+
+li {
+    float: left;
+}
+
+li>img {
+    height: 300px;
+    width: 400px;
+}
